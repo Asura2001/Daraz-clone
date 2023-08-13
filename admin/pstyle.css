@@ -1,0 +1,37 @@
+body {
+    overflow-x: hidden;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: auto;
+    background-image: radial-gradient(#fbcb72, #fdb42d);
+    border-radius: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: #8d8d8d 4px 4px 3px;
+    transition: padding-bottom 0.5s;
+}
+
+.sections:hover {
+    box-shadow: #d19a34 0px 0px 8px 4px;
+    padding-bottom: 15px;
+}
+
+.dashboard {
+    background-image: radial-gradient(#fbcb72, #fdb42d);
+    color: #fff;
+}
+
+.dashboard .tshadow:hover {
+    text-shadow: #8d8d8d 3px 3px 3px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
