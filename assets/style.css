@@ -1,0 +1,191 @@
+header {
+    background-color: white;
+}
+
+.navbar {
+    background-color: #e8e8e8;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0;
+}
+
+.navbar li {
+    padding: 0 10px;
+}
+
+.navbar a {
+    padding: 4px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.btn-orange {
+    background-color: #ffa600;
+    color: white;
+}
+
+.btn-orange:hover {
+    background-color: #ed9a00;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-orange {
+    background-color: #ffa600;
+}
+
+.text-orange {
+    color: #ffa600;
+}
+
+.btn-orange:hover {
+    color: white;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-container input[type="search"] {
+    padding: 11px;
+    padding-left: 18px;
+    background-color: #e8e8e8;
+}
+
+.search-container .search-btn {
+    position: absolute;
+    right: 12px;
+    top: 0px;
+}
+
+.categories li {
+    font-size: 13px;
+}
+
+.categories li:hover {
+    background-color: #e0e0ff;
+    color: #7c7cff;
+}
+
+.categories li {
+    position: relative;
+    padding: 5.5px 0 5.5px 0;
+}
+
+.categories .i {
+    position: absolute;
+    right: 7px;
+    top: 6px;
+    z-index: 1;
+}
+
+.categories i{
+    visibility:hidden;
+}
+
+.categories li:hover i {
+    visibility:visible;
+}
+
+.add-shadow {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 6px 8px 0px;
+}
+
+.row-content .content-container {
+    background-color: #fff;
+    position: relative;
+}
+
+.row-content .content {
+    position: absolute;
+    top: 9px;
+}
+
+.row-content .i {
+    position: absolute;
+    top: 9px;
+    right: 10px;
+}
+
+.row-content .mart:hover {
+    box-shadow: #3ea83e 2px 4px 8px;
+    color: #3ea83e;
+}
+
+.row-content .fashion:hover {
+    box-shadow: #e7e74e 2px 4px 8px;
+    color: #e7e74e;
+}
+
+.row-content .beauty:hover {
+    box-shadow: black 2px 4px 8px;
+    color: black;
+}
+
+.row-content .decor:hover {
+    box-shadow: #a335a3 2px 4px 8px;
+    color: #a335a3;
+}
+
+.row-content .i{
+    visibility:hidden;
+}
+
+.row-content .content-container:hover i {
+    visibility:visible;
+}
+
+.product-shadow:hover {
+    box-shadow: gray 2px 4px 8px;
+}
+
+.fixed-items .list-inline-item {
+    background-color: #fff;
+    width: 138px;
+    height: 150px;
+}
+
+.fixed-items .list-inline-item img {
+    width: 75px;
+}
+
+.footer {
+    background-color: #160042;
+}
+
+footer li {
+    font-size: 13px;
+}
+
+.text-white {
+    color: #fff;
+}
+
+#signup-form, #signup-form
+input::placeholder {
+    font-size: 13px;
+}
+
+#signup-form .show {
+    position: relative;
+}
+
+#signup-form .showpass {
+    position: absolute;
+    right: 10px;
+    bottom: 6px;
+}
+
+.btn-facebook, .btn-facebook:hover {
+    background-color: #2d2d9c;
+    color: white;
+}
+
+.btn-google, .btn-google:hover {
+    background-color: #d74040;
+    color: white;
+}
